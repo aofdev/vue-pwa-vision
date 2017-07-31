@@ -20,8 +20,4 @@ export default {
 }
 </script>
 
-<style>
-body{
-  font-family: 'Prompt', sans-serif;
-}
-</style>
+

@@ -9,10 +9,8 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/static/img/icons/favicon-16x16.png">
     <!--[if IE]><link rel="shortcut icon" href="/static/img/icons/favicon.ico"><![endif]-->
     <!-- Add to home screen for Android and modern mobile browsers -->
-    <link href="https://unpkg.com/vuetify/dist/vuetify.min.css" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons' rel="stylesheet" type="text/css">
-   <link href="https://fonts.googleapis.com/css?family=Prompt" rel="stylesheet">
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <link href='https://fonts.googleapis.com/icon?family=Material+Icons' rel="stylesheet">">
+  
     <link rel="manifest" href="/static/manifest.json">
     <meta name="theme-color" content="#303030">
 
@@ -24,21 +22,6 @@
     <!-- Add to home screen for Windows -->
     <meta name="msapplication-TileImage" content="/static/img/icons/msapplication-icon-144x144.png">
     <meta name="msapplication-TileColor" content="#000000">
-        <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async></script>
-    <script>
-      var OneSignal = window.OneSignal || [];
-      OneSignal.push(["init", {
-        appId: "",  // id app OneSignal
-        autoRegister: true,
-        notifyButton: {
-          enable: false /* Set to false to hide */
-        },
-        welcomeNotification:{
-            "title":"the feeling",
-            "message":" welcome the feeling"
-        }
-      }]);
-    </script>
     <% for (var chunk of webpack.chunks) {
         for (var file of chunk.files) {
           if (file.match(/\.(js|css)$/)) { %>
