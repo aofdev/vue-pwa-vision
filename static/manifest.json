@@ -1,0 +1,21 @@
+{
+  "name": "the-feeling",
+  "short_name": "the-feeling",
+  "icons": [
+    {
+      "src": "/static/img/icons/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/static/img/icons/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "display": "fullscreen",
+  "background_color": "#303030",
+  "theme_color": "#303030",
+   "gcm_sender_id": "482941778795"
+}
