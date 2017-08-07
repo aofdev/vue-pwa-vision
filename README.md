@@ -23,10 +23,10 @@ At -> src/components/Face.vue     [Google cloud api Browser key](https://console
 yarn install
 
 # serve with hot reload at localhost:8080
-yarn run dev
+yarn dev
 
 # build for production with minification
-yarn run build
+yarn build
 
 
 ```
